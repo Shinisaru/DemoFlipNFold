@@ -8,20 +8,25 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "FoldViewController.h"
+#import "FlipViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
-    } else {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
-    }
-    self.window.rootViewController = self.viewController;
+    FoldViewController *fold = [[FoldViewController alloc] init];
+    FlipViewController *flip = [[FlipViewController alloc] init];
+    
+    UITabBarController *tabs = [[UITabBarController alloc] init];
+    
+    [tabs addChildViewController:flip];
+    [tabs addChildViewController:fold];
+    
+    self.window.rootViewController = tabs;
     [self.window makeKeyAndVisible];
     return YES;
 }

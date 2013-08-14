@@ -13,12 +13,23 @@
 		6C0BF39017A7DC6A00CF5B44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C0BF38E17A7DC6A00CF5B44 /* InfoPlist.strings */; };
 		6C0BF39217A7DC6A00CF5B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0BF39117A7DC6A00CF5B44 /* main.m */; };
 		6C0BF39617A7DC6A00CF5B44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0BF39517A7DC6A00CF5B44 /* AppDelegate.m */; };
-		6C0BF39817A7DC6A00CF5B44 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C0BF39717A7DC6A00CF5B44 /* Default.png */; };
-		6C0BF39A17A7DC6A00CF5B44 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C0BF39917A7DC6A00CF5B44 /* Default@2x.png */; };
-		6C0BF39C17A7DC6A00CF5B44 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C0BF39B17A7DC6A00CF5B44 /* Default-568h@2x.png */; };
-		6C0BF39F17A7DC6A00CF5B44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0BF39E17A7DC6A00CF5B44 /* ViewController.m */; };
-		6C0BF3A217A7DC6A00CF5B44 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C0BF3A017A7DC6A00CF5B44 /* ViewController_iPhone.xib */; };
-		6C0BF3A517A7DC6A00CF5B44 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C0BF3A317A7DC6A00CF5B44 /* ViewController_iPad.xib */; };
+		6C0BF39F17A7DC6A00CF5B44 /* FoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0BF39E17A7DC6A00CF5B44 /* FoldViewController.m */; };
+		6C0BF3AC17A7DC8600CF5B44 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0BF3AB17A7DC8600CF5B44 /* QuartzCore.framework */; };
+		6C0BF3AE17A7E03000CF5B44 /* warhammer___emperor_of_mankind_by_genzoman-d4g9y0f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C0BF3AD17A7E03000CF5B44 /* warhammer___emperor_of_mankind_by_genzoman-d4g9y0f.jpg */; };
+		6C0BF3B617AA92A300CF5B44 /* the_warmaster_horus_by_vanagandr-d5npasg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C0BF3B517AA92A300CF5B44 /* the_warmaster_horus_by_vanagandr-d5npasg.jpg */; };
+		6C89446D17B6CED200C838E8 /* FlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C89446C17B6CED200C838E8 /* FlipViewController.m */; };
+		6C89447017B7D59D00C838E8 /* FlipperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C89446F17B7D59D00C838E8 /* FlipperView.m */; };
+		6C89447317B94CCF00C838E8 /* clock_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C89447117B94CCF00C838E8 /* clock_icon@2x.png */; };
+		6C89447417B94CCF00C838E8 /* clock_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C89447217B94CCF00C838E8 /* clock_icon.png */; };
+		6C89447F17B9507F00C838E8 /* um.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C89447D17B9507F00C838E8 /* um.png */; };
+		6C89448017B9507F00C838E8 /* um@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C89447E17B9507F00C838E8 /* um@2x.png */; };
+		6C89448217BB82BB00C838E8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C89448117BB82BB00C838E8 /* Default@2x.png */; };
+		6C89448417BB82BE00C838E8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C89448317BB82BE00C838E8 /* Default.png */; };
+		6C89448617BB83BB00C838E8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C89448517BB83BB00C838E8 /* Default-568h@2x.png */; };
+		6C89448817BB913200C838E8 /* iph-ne_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C89448717BB913200C838E8 /* iph-ne_small.png */; };
+		6C89448A17BB913400C838E8 /* iphone_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C89448917BB913400C838E8 /* iphone_big.png */; };
+		6C89448C17BB913E00C838E8 /* ipad_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C89448B17BB913E00C838E8 /* ipad_small.png */; };
+		6C89448E17BB914300C838E8 /* ipad big.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C89448D17BB914200C838E8 /* ipad big.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,13 +43,26 @@
 		6C0BF39317A7DC6A00CF5B44 /* DemoFolding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoFolding-Prefix.pch"; sourceTree = "<group>"; };
 		6C0BF39417A7DC6A00CF5B44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C0BF39517A7DC6A00CF5B44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6C0BF39717A7DC6A00CF5B44 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		6C0BF39917A7DC6A00CF5B44 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		6C0BF39B17A7DC6A00CF5B44 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		6C0BF39D17A7DC6A00CF5B44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6C0BF39E17A7DC6A00CF5B44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6C0BF3A117A7DC6A00CF5B44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		6C0BF3A417A7DC6A00CF5B44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		6C0BF39D17A7DC6A00CF5B44 /* FoldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoldViewController.h; sourceTree = "<group>"; };
+		6C0BF39E17A7DC6A00CF5B44 /* FoldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoldViewController.m; sourceTree = "<group>"; };
+		6C0BF3AB17A7DC8600CF5B44 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6C0BF3AD17A7E03000CF5B44 /* warhammer___emperor_of_mankind_by_genzoman-d4g9y0f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "warhammer___emperor_of_mankind_by_genzoman-d4g9y0f.jpg"; sourceTree = "<group>"; };
+		6C0BF3B517AA92A300CF5B44 /* the_warmaster_horus_by_vanagandr-d5npasg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the_warmaster_horus_by_vanagandr-d5npasg.jpg"; sourceTree = "<group>"; };
+		6C89446B17B6CED200C838E8 /* FlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipViewController.h; sourceTree = "<group>"; };
+		6C89446C17B6CED200C838E8 /* FlipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipViewController.m; sourceTree = "<group>"; };
+		6C89446E17B7D59D00C838E8 /* FlipperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipperView.h; sourceTree = "<group>"; };
+		6C89446F17B7D59D00C838E8 /* FlipperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipperView.m; sourceTree = "<group>"; };
+		6C89447117B94CCF00C838E8 /* clock_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock_icon@2x.png"; sourceTree = "<group>"; };
+		6C89447217B94CCF00C838E8 /* clock_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock_icon.png; sourceTree = "<group>"; };
+		6C89447D17B9507F00C838E8 /* um.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = um.png; sourceTree = "<group>"; };
+		6C89447E17B9507F00C838E8 /* um@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "um@2x.png"; sourceTree = "<group>"; };
+		6C89448117BB82BB00C838E8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		6C89448317BB82BE00C838E8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		6C89448517BB83BB00C838E8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		6C89448717BB913200C838E8 /* iph-ne_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iph-ne_small.png"; path = "../iph-ne_small.png"; sourceTree = "<group>"; };
+		6C89448917BB913400C838E8 /* iphone_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone_big.png; path = ../iphone_big.png; sourceTree = "<group>"; };
+		6C89448B17BB913E00C838E8 /* ipad_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ipad_small.png; path = ../ipad_small.png; sourceTree = "<group>"; };
+		6C89448D17BB914200C838E8 /* ipad big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ipad big.png"; path = "../ipad big.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0BF3AC17A7DC8600CF5B44 /* QuartzCore.framework in Frameworks */,
 				6C0BF38617A7DC6A00CF5B44 /* UIKit.framework in Frameworks */,
 				6C0BF38817A7DC6A00CF5B44 /* Foundation.framework in Frameworks */,
 				6C0BF38A17A7DC6A00CF5B44 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +100,7 @@
 		6C0BF38417A7DC6A00CF5B44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6C0BF3AB17A7DC8600CF5B44 /* QuartzCore.framework */,
 				6C0BF38517A7DC6A00CF5B44 /* UIKit.framework */,
 				6C0BF38717A7DC6A00CF5B44 /* Foundation.framework */,
 				6C0BF38917A7DC6A00CF5B44 /* CoreGraphics.framework */,
@@ -85,12 +111,9 @@
 		6C0BF38B17A7DC6A00CF5B44 /* DemoFolding */ = {
 			isa = PBXGroup;
 			children = (
-				6C0BF39417A7DC6A00CF5B44 /* AppDelegate.h */,
-				6C0BF39517A7DC6A00CF5B44 /* AppDelegate.m */,
-				6C0BF39D17A7DC6A00CF5B44 /* ViewController.h */,
-				6C0BF39E17A7DC6A00CF5B44 /* ViewController.m */,
-				6C0BF3A017A7DC6A00CF5B44 /* ViewController_iPhone.xib */,
-				6C0BF3A317A7DC6A00CF5B44 /* ViewController_iPad.xib */,
+				6C89449017BB926F00C838E8 /* FlipViewController */,
+				6C89449117BB927C00C838E8 /* AppDelegate */,
+				6C89449217BB928900C838E8 /* FoldViewController */,
 				6C0BF38C17A7DC6A00CF5B44 /* Supporting Files */,
 			);
 			path = DemoFolding;
@@ -99,15 +122,62 @@
 		6C0BF38C17A7DC6A00CF5B44 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6C89448D17BB914200C838E8 /* ipad big.png */,
+				6C89448B17BB913E00C838E8 /* ipad_small.png */,
+				6C89448917BB913400C838E8 /* iphone_big.png */,
+				6C89448717BB913200C838E8 /* iph-ne_small.png */,
+				6C89448517BB83BB00C838E8 /* Default-568h@2x.png */,
+				6C89448317BB82BE00C838E8 /* Default.png */,
+				6C89448117BB82BB00C838E8 /* Default@2x.png */,
+				6C89447D17B9507F00C838E8 /* um.png */,
+				6C89447E17B9507F00C838E8 /* um@2x.png */,
+				6C89447117B94CCF00C838E8 /* clock_icon@2x.png */,
+				6C89447217B94CCF00C838E8 /* clock_icon.png */,
+				6C0BF3B517AA92A300CF5B44 /* the_warmaster_horus_by_vanagandr-d5npasg.jpg */,
+				6C0BF3AD17A7E03000CF5B44 /* warhammer___emperor_of_mankind_by_genzoman-d4g9y0f.jpg */,
 				6C0BF38D17A7DC6A00CF5B44 /* DemoFolding-Info.plist */,
 				6C0BF38E17A7DC6A00CF5B44 /* InfoPlist.strings */,
 				6C0BF39117A7DC6A00CF5B44 /* main.m */,
 				6C0BF39317A7DC6A00CF5B44 /* DemoFolding-Prefix.pch */,
-				6C0BF39717A7DC6A00CF5B44 /* Default.png */,
-				6C0BF39917A7DC6A00CF5B44 /* Default@2x.png */,
-				6C0BF39B17A7DC6A00CF5B44 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C89448F17BB925F00C838E8 /* FlipperView */ = {
+			isa = PBXGroup;
+			children = (
+				6C89446E17B7D59D00C838E8 /* FlipperView.h */,
+				6C89446F17B7D59D00C838E8 /* FlipperView.m */,
+			);
+			name = FlipperView;
+			sourceTree = "<group>";
+		};
+		6C89449017BB926F00C838E8 /* FlipViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C89448F17BB925F00C838E8 /* FlipperView */,
+				6C89446B17B6CED200C838E8 /* FlipViewController.h */,
+				6C89446C17B6CED200C838E8 /* FlipViewController.m */,
+			);
+			name = FlipViewController;
+			sourceTree = "<group>";
+		};
+		6C89449117BB927C00C838E8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6C0BF39417A7DC6A00CF5B44 /* AppDelegate.h */,
+				6C0BF39517A7DC6A00CF5B44 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6C89449217BB928900C838E8 /* FoldViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C0BF39D17A7DC6A00CF5B44 /* FoldViewController.h */,
+				6C0BF39E17A7DC6A00CF5B44 /* FoldViewController.m */,
+			);
+			name = FoldViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,11 +232,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C0BF39017A7DC6A00CF5B44 /* InfoPlist.strings in Resources */,
-				6C0BF39817A7DC6A00CF5B44 /* Default.png in Resources */,
-				6C0BF39A17A7DC6A00CF5B44 /* Default@2x.png in Resources */,
-				6C0BF39C17A7DC6A00CF5B44 /* Default-568h@2x.png in Resources */,
-				6C0BF3A217A7DC6A00CF5B44 /* ViewController_iPhone.xib in Resources */,
-				6C0BF3A517A7DC6A00CF5B44 /* ViewController_iPad.xib in Resources */,
+				6C0BF3AE17A7E03000CF5B44 /* warhammer___emperor_of_mankind_by_genzoman-d4g9y0f.jpg in Resources */,
+				6C0BF3B617AA92A300CF5B44 /* the_warmaster_horus_by_vanagandr-d5npasg.jpg in Resources */,
+				6C89447317B94CCF00C838E8 /* clock_icon@2x.png in Resources */,
+				6C89447417B94CCF00C838E8 /* clock_icon.png in Resources */,
+				6C89447F17B9507F00C838E8 /* um.png in Resources */,
+				6C89448017B9507F00C838E8 /* um@2x.png in Resources */,
+				6C89448217BB82BB00C838E8 /* Default@2x.png in Resources */,
+				6C89448417BB82BE00C838E8 /* Default.png in Resources */,
+				6C89448617BB83BB00C838E8 /* Default-568h@2x.png in Resources */,
+				6C89448817BB913200C838E8 /* iph-ne_small.png in Resources */,
+				6C89448A17BB913400C838E8 /* iphone_big.png in Resources */,
+				6C89448C17BB913E00C838E8 /* ipad_small.png in Resources */,
+				6C89448E17BB914300C838E8 /* ipad big.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +257,9 @@
 			files = (
 				6C0BF39217A7DC6A00CF5B44 /* main.m in Sources */,
 				6C0BF39617A7DC6A00CF5B44 /* AppDelegate.m in Sources */,
-				6C0BF39F17A7DC6A00CF5B44 /* ViewController.m in Sources */,
+				6C0BF39F17A7DC6A00CF5B44 /* FoldViewController.m in Sources */,
+				6C89446D17B6CED200C838E8 /* FlipViewController.m in Sources */,
+				6C89447017B7D59D00C838E8 /* FlipperView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,22 +272,6 @@
 				6C0BF38F17A7DC6A00CF5B44 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6C0BF3A017A7DC6A00CF5B44 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6C0BF3A117A7DC6A00CF5B44 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		6C0BF3A317A7DC6A00CF5B44 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6C0BF3A417A7DC6A00CF5B44 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -312,6 +376,7 @@
 				6C0BF3AA17A7DC6A00CF5B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
